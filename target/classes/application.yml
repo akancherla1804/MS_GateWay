@@ -1,0 +1,6 @@
+endpoint.account.customers: http://accounts-service/account/customer/Ids
+endpoint.account.customerById: http://accounts-service/account/customerDetails/{customerId}
+endpoint.account.add: http://accounts-service/account/customer/addAccount
+endpoint.account.update: http://accounts-service/account/customer/updateAccount
+endpoint.transaction.add: http://transactions-service/transaction/customer/addTransaction
+endpoint.transaction.customerId: http://transactions-service/transaction/transactions/{customerId}
